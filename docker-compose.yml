@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+  iac:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - C:/Docker_File_Sharing/.aws/:/root/.aws
+      - C:/Docker_File_Sharing/project-folder:/project-folder
