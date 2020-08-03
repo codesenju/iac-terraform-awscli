@@ -6,5 +6,5 @@ services:
       dockerfile: Dockerfile
     volumes:
       - C:/Docker_File_Sharing/project-folder/.aws/:/root/.aws
-      - C:/Docker_File_Sharing/project-folder:/root/.ssh/
+      - C:/Docker_File_Sharing/project-folder/.ssh:/root/.ssh/
       - C:/Docker_File_Sharing/project-folder:/project-folder
